@@ -1,0 +1,545 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Dancing Script', cursive;
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.homepage-full {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.hero-banner {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+  color: #fff;
+}
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+.hero-banner * {
+  position: relative;
+  z-index: 1;
+}
+.hero-banner .auth-buttons {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+.hero-banner input {
+  width: 90%;
+  max-width: 600px;
+  margin-top: 20px;
+  background-color: #2c2c2c;
+  color: #f1f1f1;
+  border: 1px solid #444;
+}
+.hero-banner input::placeholder {
+  color: #bbb;
+}
+
+.btn-outline-light {
+  border-color: #ccc;
+  color: #ccc;
+}
+.btn-outline-light:hover {
+  background: #fff;
+  color: #000;
+}
+.btn-warning {
+  background: #ffc107;
+  color: #000;
+}
+
+.container-fluid {
+  background: #2e2e2e;
+  padding: 60px 40px;
+}
+.section-title, h3 {
+  color: #ffc107;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 28px;
+}
+
+.concert-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+.concert-card {
+  background: #3a3a3a;
+  color: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+.concert-card:hover {
+  transform: translateY(-5px);
+}
+.concert-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.concert-card h3 {
+  background: #444;
+  padding: 8px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.concert-card p {
+  color: #ccc;
+}
+.concert-card button {
+  background: #ffc107;
+  color: #000;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.concert-card button:hover {
+  background: #ffca2c;
+}
+
+.no-results {
+  text-align: center;
+  font-style: italic;
+  color: #fffdfd;
+}
+
+@keyframes fadeSlideIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-title { animation: fadeSlideIn 1s ease-out forwards; }
+.animate-subtitle { animation: fadeSlideIn 1.5s ease-out forwards; }
+.animate-input { animation: fadeSlideIn 2s ease-out forwards; }
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 20px 0;
+  background: #1a1a1a;
+}
+.slider-track {
+  display: flex;
+  animation: scrollSlider 20s linear infinite;
+}
+.slider-item {
+  min-width: 280px;
+  margin-right: 20px;
+}
+.slider-container:hover .slider-track {
+  animation-play-state: paused;
+}
+@keyframes scrollSlider {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.hero-banner {
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-image 1s ease-in-out, opacity 1s ease-in-out;
+  opacity: 1;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.hero-banner.fade-out {
+  opacity: 0;
+}
+.ratio {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.hero-banner input {
+  width: 90%;
+  max-width: 600px;
+  margin-top: 20px;
+  padding: 12px 18px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #f1f1f1;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  font-size: 1rem;
+  backdrop-filter: blur(8px);
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.hero-banner input:focus {
+  outline: none;
+  border: 1px solid #ffc107;
+  box-shadow: 0 0 8px #ffc107;
+  color: #f1f1f1;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.hero-banner input::placeholder {
+  color: #ffffff;
+  font-weight: 300;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Libertinus+Mono&family=Lobster&family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+body {
+  font-family: 'Libertinus Mono', monospace;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #000;
+  color: #fff;
+}
+
+
+.hero-banner {
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px 60px;
+  text-align: center;
+  position: relative;
+  backdrop-filter: blur(8px) saturate(180%);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero-banner h1 {
+  font-family: 'Leckerli One', cursive;
+  font-size: 3.5rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.hero-banner p {
+  font-family: 'Playwrite AU SA', cursive;
+  font-size: 1.3rem;
+  color: #e0e0e0;
+  margin-top: 10px;
+}
+
+.hero-banner input {
+  font-family: 'Libertinus Mono', monospace;
+  padding: 12px 18px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  border: none;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.hero-banner a.btn {
+  font-family: 'Lobster', cursive;
+  margin: 0 5px;
+  font-size: 1.1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+section.py-5.text-center h3 {
+  font-family: 'Playwrite AU SA', cursive;
+  font-size: 1.8rem;
+  color: #00d9ff;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+.concert-card h5 {
+  font-family: 'Lobster', cursive;
+  font-size: 1.4rem;
+}
+
+.concert-card p {
+  font-family: 'Libertinus Mono', monospace;
+  font-size: 0.95rem;
+}
+
+.bg-dark h3 {
+  font-family: 'Leckerli One', cursive;
+  color: #ffc107;
+}
+
+.footer-brand,
+.footer-logo {
+  font-family: 'Lobster', cursive;
+  font-size: 1.8rem;
+  color: #f56991;
+}
+
+footer a,
+footer p {
+  font-family: 'Libertinus Mono', monospace;
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .hero-banner h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-banner p {
+    font-size: 1rem;
+  }
+}
+
+.offer-strip {
+  background: linear-gradient(135deg, #54a4bf, #e2563d);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 12px 0;
+  text-align: center;
+  letter-spacing: 1px;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.about-section {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  margin: 60px auto;
+  max-width: 900px;
+  text-align: center;
+  color: #fff;
+  animation: slideInUp 0.8s ease;
+}
+
+.about-section h2 {
+  font-family: 'Leckerli One', cursive;
+  font-size: 2.5rem;
+  color: #ffdd57;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-family: 'Libertinus Mono', monospace;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.testimonial-section {
+  padding: 60px 30px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(32, 32, 32, 0.7));
+  color: white;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  
+}
+
+.testimonial-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 25px;
+  margin: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  color: #2cc6ec;
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-card p {
+  font-style: italic;
+  font-family: 'Playwrite AU SA', cursive;
+}
+
+.testimonial-author {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #ffc107;
+}
+
+.newsletter-section {
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(6px);
+  padding: 40px;
+  text-align: center;
+  margin: 60px auto;
+  border-radius: 18px;
+  max-width: 800px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+.newsletter-section h4 {
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #17c3b2;
+}
+
+.newsletter-section input[type="email"] {
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: none;
+  width: 70%;
+  margin-right: 10px;
+  font-family: 'Libertinus Mono', monospace;
+}
+
+.newsletter-section button {
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: none;
+  background: #ff6f61;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.newsletter-section button:hover {
+  background: #e94e3b;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.cardtest{
+    background: linear-gradient(135deg, #54a4bf, #e2563d);
+}
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.85;
+}
+
+.hero-banner {
+  position: relative;
+  overflow: hidden;
+}
+.tag-badge {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: white;
+  font-weight: bold;
+  padding: 5px 12px;
+  font-size: 0.75rem;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  z-index: 10;
+  text-transform: uppercase;
+}
+.countdown-section {
+  position: relative;
+  background: url('/bg2.jpg') no-repeat center center/cover;
+  padding: 4rem 1rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+.countdown-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.countdown-content {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 2rem;
+  border-radius: 20px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+}
+
+.countdown-section h3 {
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.countdown-section h4 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0.6rem 1.5rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  animation: pulse 1.5s infinite;
+  display: inline-block;
+}
+
+.countdown-section p {
+  font-size: 1.1rem;
+  color: rgb(28, 255, 255);
+  margin-top: 0.5rem;
+  padding-top: 15px;
+  font-weight: bolder;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.9; }
+  100% { transform: scale(1); opacity: 1; }
+}

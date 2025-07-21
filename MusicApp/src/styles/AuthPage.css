@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background: none; 
+}
+.auth-card {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-card h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+.auth-card form label {
+  font-weight: 500;
+  color: #333;
+}
+
+.auth-card form .form-control {
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.auth-card .btn {
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.auth-card p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.95rem;
+}

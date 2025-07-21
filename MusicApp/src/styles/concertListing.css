@@ -1,0 +1,70 @@
+.concert-listing-page {
+  background: linear-gradient(135deg, #111827, #1f2937);
+  padding: 2rem;
+  border-radius: 15px;
+  color: #f8f9fa;
+}
+
+h2.text-center {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #00d4ff;
+  text-shadow: 1px 1px 4px rgba(0, 212, 255, 0.3);
+}
+
+.filters-container {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.concert-card {
+  position: relative;
+  background: #ffffff0d;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+  backdrop-filter: blur(6px);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.concert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 212, 255, 0.15);
+}
+
+.concert-card .card-body {
+  padding: 1.5rem;
+}
+
+.concert-card .card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #00e6e6;
+}
+
+.concert-card .card-text {
+  color: #e0e0e0;
+  font-size: 0.95rem;
+}
+
+.concert-card .btn {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.concert-card .btn:hover {
+  background: linear-gradient(90deg, #0072ff, #00c6ff);
+  transform: scale(1.05);
+}
+
+.text-muted {
+  color: #ccc !important;
+  padding: 2rem;
+}

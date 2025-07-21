@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Libertinus+Mono&family=Lobster&family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+body {
+  font-family: 'Libertinus Mono', monospace;
+  line-height: 1.6;
+  color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playwrite AU SA', cursive;
+  font-weight: 300;
+  color: inherit;
+}
+
+.hero-title,
+.logo-text,
+h1.brand-title {
+  font-family: 'Leckerli One', cursive;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #c0392b;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.navbar,
+.btn,
+button,
+a {
+  font-family: 'Libertinus Mono', monospace;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.subtitle,
+.tagline,
+.section-lead {
+  font-family: 'Playwrite AU SA', cursive;
+  font-size: 1.1rem;
+}
+
+.logo,
+.site-name,
+.footer-brand {
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  color: #ff6f00;
+}
+
+input,
+textarea,
+select {
+  font-family: 'Libertinus Mono', monospace;
+  font-size: 1rem;
+}
+
+blockquote,
+.quote {
+  font-family: 'Playwrite AU SA', cursive;
+  font-style: italic;
+  font-size: 1.3rem;
+  border-left: 4px solid #ccc;
+  padding-left: 1rem;
+  color: #444;
+}

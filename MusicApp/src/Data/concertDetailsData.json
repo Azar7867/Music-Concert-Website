@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "artist": "Arijit Singh",
+    "venue": "Chennai Stadium",
+    "location": "Chennai",
+    "date": "2025-08-12",
+    "time": "19:00",
+    "genre": "Romantic",
+    "description": "A soulful night of romantic music with Arijit Singh.",
+    "seatTypes": [
+      { "type": "Standard", "price": 1500 },
+      { "type": "Premium", "price": 2500 },
+      { "type": "VIP", "price": 4000 }
+    ]
+  },
+  {
+    "id": 2,
+    "artist": "Neha Kakkar",
+    "venue": "Mumbai Dome",
+    "location": "Mumbai",
+    "date": "2025-07-20",
+    "time": "18:30",
+    "genre": "Pop",
+    "description": "An electrifying night of pop hits with Neha Kakkar.",
+    "seatTypes": [
+      { "type": "Standard", "price": 1800 },
+      { "type": "VIP", "price": 3500 }
+    ]
+  },
+  {
+    "id": 3,
+    "artist": "Sid Sriram",
+    "venue": "Hyderabad Convention Center",
+    "location": "Hyderabad",
+    "date": "2025-09-10",
+    "time": "20:00",
+    "genre": "Fusion",
+    "description": "An emotional and fusion musical journey with Sid Sriram.",
+    "seatTypes": [
+      { "type": "Standard", "price": 1200 },
+      { "type": "Premium", "price": 2000 },
+      { "type": "VIP", "price": 3200 }
+    ]
+  },
+  {
+    "id": 4,
+    "artist": "Shreya Ghoshal",
+    "venue": "Bangalore Arena",
+    "location": "Bangalore",
+    "date": "2025-10-05",
+    "time": "19:30",
+    "genre": "Classical",
+    "description": "A graceful night of classical and playback melodies.",
+    "seatTypes": [
+      { "type": "Standard", "price": 1600 },
+      { "type": "Premium", "price": 2800 },
+      { "type": "VIP", "price": 4500 }
+    ]
+  },
+  {
+    "id": 5,
+    "artist": "Honey Singh",
+    "venue": "Delhi Grounds",
+    "location": "Delhi",
+    "date": "2025-11-02",
+    "time": "21:00",
+    "genre": "Rap",
+    "description": "Get hyped for a power-packed night with Yo Yo Honey Singh.",
+    "seatTypes": [
+      { "type": "Standard", "price": 1700 },
+      { "type": "Premium", "price": 2600 },
+      { "type": "VIP", "price": 3900 }
+    ]
+  },
+  {
+    "id": 6,
+    "artist": "Anirudh Ravichander",
+    "venue": "Coimbatore Open Arena",
+    "location": "Coimbatore",
+    "date": "2025-12-15",
+    "time": "19:00",
+    "genre": "South Indian",
+    "description": "Thumping beats and Tamil hits with Anirudh live in concert.",
+    "seatTypes": [
+      { "type": "Standard", "price": 1400 },
+      { "type": "VIP", "price": 3000 }
+    ]
+  },
+  {
+    "id": 7,
+    "artist": "Armaan Malik",
+    "venue": "Pune Music Hall",
+    "location": "Pune",
+    "date": "2025-09-25",
+    "time": "18:00",
+    "genre": "Melody",
+    "description": "A romantic evening filled with soulful melodies by Armaan Malik.",
+    "seatTypes": [
+      { "type": "Standard", "price": 1300 },
+      { "type": "Premium", "price": 2200 },
+      { "type": "VIP", "price": 3600 }
+    ]
+  },
+  {
+    "id": 8,
+    "artist": "KK Tribute Night",
+    "venue": "Kolkata Central Park",
+    "location": "Kolkata",
+    "date": "2025-08-30",
+    "time": "19:30",
+    "genre": "Tribute",
+    "description": "A tribute night to KK with live band performances of his hits.",
+    "seatTypes": [
+      { "type": "Standard", "price": 1000 },
+      { "type": "VIP", "price": 2400 }
+    ]
+  }
+]

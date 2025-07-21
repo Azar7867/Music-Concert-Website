@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "artist": "Arijit Singh",
+    "venue": "Chennai Stadium",
+    "date": "2025-08-12",
+    "time": "19:00",
+    "genre": "Romantic",
+    "location": "Chennai",
+    "ticketPrice": "₹1500"
+  },
+  {
+    "id": 2,
+    "artist": "Shreya Ghoshal",
+    "venue": "Bangalore Arena",
+    "date": "2025-09-03",
+    "time": "20:00",
+    "genre": "Classical",
+    "location": "Bangalore",
+    "ticketPrice": "₹2000"
+  },
+  {
+    "id": 3,
+    "artist": "Neha Kakkar",
+    "venue": "Mumbai Dome",
+    "date": "2025-07-20",
+    "time": "18:30",
+    "genre": "Pop",
+    "location": "Mumbai",
+    "ticketPrice": "₹1800"
+  },
+  {
+    "id": 4,
+    "artist": "Armaan Malik",
+    "venue": "Hyderabad Convention Center",
+    "date": "2025-08-25",
+    "time": "19:30",
+    "genre": "Pop",
+    "location": "Hyderabad",
+    "ticketPrice": "₹1600"
+  },
+  {
+    "id": 5,
+    "artist": "KK Live Tribute",
+    "venue": "Delhi Rock Arena",
+    "date": "2025-09-10",
+    "time": "21:00",
+    "genre": "Rock",
+    "location": "Delhi",
+    "ticketPrice": "₹2100"
+  },
+  {
+    "id": 6,
+    "artist": "Sunidhi Chauhan",
+    "venue": "Pune Music Hall",
+    "date": "2025-10-05",
+    "time": "19:00",
+    "genre": "Bollywood",
+    "location": "Pune",
+    "ticketPrice": "₹1700"
+  },
+  {
+    "id": 7,
+    "artist": "Sid Sriram",
+    "venue": "Coimbatore Cultural Complex",
+    "date": "2025-07-30",
+    "time": "18:00",
+    "genre": "Fusion",
+    "location": "Coimbatore",
+    "ticketPrice": "₹1400"
+  },
+  {
+    "id": 8,
+    "artist": "Benny Dayal",
+    "venue": "Ahmedabad Grand Stage",
+    "date": "2025-08-18",
+    "time": "20:30",
+    "genre": "Dance",
+    "location": "Ahmedabad",
+    "ticketPrice": "₹1900"
+  },
+  {
+    "id": 9,
+    "artist": "Anirudh Ravichander",
+    "venue": "Chennai Marina Grounds",
+    "date": "2025-08-28",
+    "time": "19:00",
+    "genre": "EDM",
+    "location": "Chennai",
+    "ticketPrice": "₹2200"
+  },
+  {
+    "id": 10,
+    "artist": "Darshan Raval",
+    "venue": "Jaipur Palace Grounds",
+    "date": "2025-09-15",
+    "time": "19:45",
+    "genre": "Romantic",
+    "location": "Jaipur",
+    "ticketPrice": "₹1500"
+  }
+]

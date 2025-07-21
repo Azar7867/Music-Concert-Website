@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "artist": "Arijit Singh",
+    "venue": "Chennai Stadium",
+    "date": "2025-08-12",
+    "time": "19:00",
+    "location": "Chennai",
+    "ticketPrice": 1500,
+    "availableTickets": 250
+  },
+  {
+    "id": 2,
+    "artist": "Neha Kakkar",
+    "venue": "Mumbai Dome",
+    "date": "2025-07-20",
+    "time": "18:30",
+    "location": "Mumbai",
+    "ticketPrice": 1800,
+    "availableTickets": 300
+  },
+  {
+    "id": 3,
+    "artist": "Shreya Ghoshal",
+    "venue": "Bangalore Arena",
+    "date": "2025-09-03",
+    "time": "20:00",
+    "location": "Bangalore",
+    "ticketPrice": 2200,
+    "availableTickets": 200
+  },
+  {
+    "id": 4,
+    "artist": "Sid Sriram",
+    "venue": "Hyderabad Open Grounds",
+    "date": "2025-10-10",
+    "time": "18:00",
+    "location": "Hyderabad",
+    "ticketPrice": 1700,
+    "availableTickets": 180
+  },
+  {
+    "id": 5,
+    "artist": "Santhosh Narayanan",
+    "venue": "Coimbatore Central Park",
+    "date": "2025-08-25",
+    "time": "19:30",
+    "location": "Coimbatore",
+    "ticketPrice": 1300,
+    "availableTickets": 220
+  },
+  {
+    "id": 6,
+    "artist": "Anirudh Ravichander",
+    "venue": "Chennai Nehru Stadium",
+    "date": "2025-09-15",
+    "time": "21:00",
+    "location": "Chennai",
+    "ticketPrice": 2500,
+    "availableTickets": 500
+  },
+  {
+    "id": 7,
+    "artist": "SPB Tribute Night",
+    "venue": "Vizag Cultural Hall",
+    "date": "2025-08-30",
+    "time": "17:00",
+    "location": "Vizag",
+    "ticketPrice": 1200,
+    "availableTickets": 150
+  },
+  {
+    "id": 8,
+    "artist": "Benny Dayal",
+    "venue": "Delhi City Arena",
+    "date": "2025-11-05",
+    "time": "20:30",
+    "location": "Delhi",
+    "ticketPrice": 2100,
+    "availableTickets": 270
+  },
+  {
+    "id": 9,
+    "artist": "Jonita Gandhi",
+    "venue": "Ahmedabad Event Plaza",
+    "date": "2025-12-01",
+    "time": "19:00",
+    "location": "Ahmedabad",
+    "ticketPrice": 1600,
+    "availableTickets": 140
+  },
+  {
+    "id": 10,
+    "artist": "Karthik Live",
+    "venue": "Trichy Musical Grounds",
+    "date": "2025-10-22",
+    "time": "18:45",
+    "location": "Trichy",
+    "ticketPrice": 1400,
+    "availableTickets": 190
+  }
+]

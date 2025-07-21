@@ -1,0 +1,589 @@
+{
+  "concerts": [
+    {
+      "id": "1",
+      "title": "Arijit Singh Live",
+      "artist": "Arijit Singh",
+      "location": "Mumbai",
+      "date": "2025-07-20",
+      "image": "Arijit Singh.jpg",
+      "price": 2999
+    },
+    {
+      "id": "2",
+      "title": "Sunburn Goa Festival",
+      "artist": "Various DJs",
+      "location": "Goa",
+      "date": "2025-12-10",
+      "image": "Sunburn Goa Festival.jpg",
+      "price": 4999
+    },
+    {
+      "id": "3",
+      "title": "Shreya Ghoshal Night",
+      "artist": "Shreya Ghoshal",
+      "location": "Chennai",
+      "date": "2025-08-05",
+      "image": "Shreya Ghoshal.jpg",
+      "price": 2599
+    },
+    {
+      "id": "4",
+      "title": "KK Tribute Show",
+      "artist": "Various Artists",
+      "location": "Bangalore",
+      "date": "2025-09-12",
+      "image": "KK Tribute Show.jpg",
+      "price": 2199
+    },
+    {
+      "id": "5",
+      "title": "Ilaiyaraaja Symphony",
+      "artist": "Ilaiyaraaja",
+      "location": "Madurai",
+      "date": "2025-10-05",
+      "image": "ilayaraja.jpg",
+      "price": 2799
+    },
+    {
+      "id": "6",
+      "title": "Yuvan Live in Concert",
+      "artist": "Yuvan Shankar Raja",
+      "location": "Coimbatore",
+      "date": "2025-11-15",
+      "image": "KK Tribute Show.jpg",
+      "price": 2699
+    },
+    {
+      "id": "7",
+      "title": "Anirudh Musical Night",
+      "artist": "Anirudh Ravichander",
+      "location": "Chennai",
+      "date": "2025-09-25",
+      "image": "Shreya Ghoshal.jpg",
+      "price": 2899
+    },
+    {
+      "id": "8",
+      "title": "SPB Evergreen Melodies",
+      "artist": "SPB Tribute Artists",
+      "location": "Trichy",
+      "date": "2025-08-30",
+      "image": "Arijit Singh.jpg",
+      "price": 1999
+    },
+    {
+      "id": "9",
+      "title": "Sid Sriram Live",
+      "artist": "Sid Sriram",
+      "location": "Hyderabad",
+      "date": "2025-07-28",
+      "image": "Sunburn Goa Festival.jpg",
+      "price": 2799
+    }
+  ],
+  "popularTamilConcerts": [
+    {
+      "id": "101",
+      "title": "Anirudh Musical Night",
+      "artist": "Anirudh Ravichander",
+      "location": "Chennai",
+      "image": "Arijit Singh.jpg",
+      "date": "2025-09-10",
+      "price": 2899
+    },
+    {
+      "id": "102",
+      "title": "Yuvan 25 Live",
+      "artist": "Yuvan Shankar Raja",
+      "location": "Coimbatore",
+      "image": "Yuvan Shankar Raja.jpg",
+      "date": "2025-09-25",
+      "price": 2699
+    },
+    {
+      "id": "103",
+      "title": "Ilaiyaraaja Symphony",
+      "artist": "Ilaiyaraaja",
+      "location": "Madurai",
+      "image": "ilayaraja.jpg",
+      "date": "2025-10-05",
+      "price": 2799
+    },
+    {
+      "id": "104",
+      "title": "Ilaiyaraaja Symphony",
+      "artist": "Ilaiyaraaja",
+      "location": "Madurai",
+      "image": "ilayaraja.jpg",
+      "date": "2025-10-05",
+      "price": 2799
+    }
+  ],
+  "concerts1": [
+  {
+    "artist": "Arijit Singh",
+    "venue": "Chennai Stadium",
+    "date": "2025-08-12",
+    "time": "19:00",
+    "location": "Chennai",
+    "genre": "Romantic",
+    "ticketPrice": "₹1500",
+    "price": 1500,
+    "availableTickets": 150,
+    "id": "1"
+  },
+  {
+    "id": "2",
+    "artist": "Shreya Ghoshal",
+    "venue": "Bangalore Arena",
+    "date": "2025-09-03",
+    "time": "20:00",
+    "genre": "Classical",
+    "location": "Bangalore",
+    "ticketPrice": "₹2000",
+    "price": 2000,
+    "availableTickets": 100
+  },
+  {
+    "id": "3",
+    "artist": "Neha Kakkar",
+    "venue": "Mumbai Dome",
+    "date": "2025-07-20",
+    "time": "18:30",
+    "genre": "Pop",
+    "location": "Mumbai",
+    "ticketPrice": "₹1800",
+    "price": 1800,
+    "availableTickets": 120
+  },
+  {
+    "id": "4",
+    "artist": "Armaan Malik",
+    "venue": "Hyderabad Convention Center",
+    "date": "2025-08-25",
+    "time": "19:30",
+    "genre": "Pop",
+    "location": "Hyderabad",
+    "ticketPrice": "₹1600",
+    "price": 1600,
+    "availableTickets": 90
+  },
+  {
+    "id": "5",
+    "artist": "KK Live Tribute",
+    "venue": "Delhi Rock Arena",
+    "date": "2025-09-10",
+    "time": "21:00",
+    "genre": "Rock",
+    "location": "Delhi",
+    "ticketPrice": "₹2100",
+    "price": 2100,
+    "availableTickets": 200
+  },
+  {
+    "id": "6",
+    "artist": "Sunidhi Chauhan",
+    "venue": "Pune Music Hall",
+    "date": "2025-10-05",
+    "time": "19:00",
+    "genre": "Bollywood",
+    "location": "Pune",
+    "ticketPrice": "₹1700",
+    "price": 1700,
+    "availableTickets": 80
+  },
+  {
+    "id": "7",
+    "artist": "Sid Sriram",
+    "venue": "Coimbatore Cultural Complex",
+    "date": "2025-07-30",
+    "time": "18:00",
+    "genre": "Fusion",
+    "location": "Coimbatore",
+    "ticketPrice": "₹1400",
+    "price": 1400,
+    "availableTickets": 110
+  },
+  {
+    "id": "8",
+    "artist": "Benny Dayal",
+    "venue": "Ahmedabad Grand Stage",
+    "date": "2025-08-18",
+    "time": "20:30",
+    "genre": "Dance",
+    "location": "Ahmedabad",
+    "ticketPrice": "₹1900",
+    "price": 1900,
+    "availableTickets": 140
+  },
+  {
+    "id": "9",
+    "artist": "Anirudh Ravichander",
+    "venue": "Chennai Marina Grounds",
+    "date": "2025-08-28",
+    "time": "19:00",
+    "genre": "EDM",
+    "location": "Chennai",
+    "ticketPrice": "₹2200",
+    "price": 2200,
+    "availableTickets": 160
+  },
+  {
+    "id": "10",
+    "artist": "Darshan Raval",
+    "venue": "Jaipur Palace Grounds",
+    "date": "2025-09-15",
+    "time": "19:45",
+    "genre": "Romantic",
+    "location": "Jaipur",
+    "ticketPrice": "₹1500",
+    "price": 1500,
+    "availableTickets": 130
+  }
+],
+  "concertDetails": [
+    {
+      "id": "1",
+      "artist": "Arijit Singh",
+      "venue": "Chennai Stadium",
+      "location": "Chennai",
+      "date": "2025-08-12",
+      "time": "19:00",
+      "genre": "Romantic",
+      "description": "A soulful night of romantic music with Arijit Singh.",
+      "seatTypes": [
+        {
+          "type": "Standard",
+          "price": 1500
+        },
+        {
+          "type": "Premium",
+          "price": 2500
+        },
+        {
+          "type": "VIP",
+          "price": 4000
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "artist": "Neha Kakkar",
+      "venue": "Mumbai Dome",
+      "location": "Mumbai",
+      "date": "2025-07-20",
+      "time": "18:30",
+      "genre": "Pop",
+      "description": "An electrifying night of pop hits with Neha Kakkar.",
+      "seatTypes": [
+        {
+          "type": "Standard",
+          "price": 1800
+        },
+        {
+          "type": "VIP",
+          "price": 3500
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "artist": "Sid Sriram",
+      "venue": "Hyderabad Convention Center",
+      "location": "Hyderabad",
+      "date": "2025-09-10",
+      "time": "20:00",
+      "genre": "Fusion",
+      "description": "An emotional and fusion musical journey with Sid Sriram.",
+      "seatTypes": [
+        {
+          "type": "Standard",
+          "price": 1200
+        },
+        {
+          "type": "Premium",
+          "price": 2000
+        },
+        {
+          "type": "VIP",
+          "price": 3200
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "artist": "Shreya Ghoshal",
+      "venue": "Bangalore Arena",
+      "location": "Bangalore",
+      "date": "2025-10-05",
+      "time": "19:30",
+      "genre": "Classical",
+      "description": "A graceful night of classical and playback melodies.",
+      "seatTypes": [
+        {
+          "type": "Standard",
+          "price": 1600
+        },
+        {
+          "type": "Premium",
+          "price": 2800
+        },
+        {
+          "type": "VIP",
+          "price": 4500
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "artist": "Honey Singh",
+      "venue": "Delhi Grounds",
+      "location": "Delhi",
+      "date": "2025-11-02",
+      "time": "21:00",
+      "genre": "Rap",
+      "description": "Get hyped for a power-packed night with Yo Yo Honey Singh.",
+      "seatTypes": [
+        {
+          "type": "Standard",
+          "price": 1700
+        },
+        {
+          "type": "Premium",
+          "price": 2600
+        },
+        {
+          "type": "VIP",
+          "price": 3900
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "artist": "Anirudh Ravichander",
+      "venue": "Coimbatore Open Arena",
+      "location": "Coimbatore",
+      "date": "2025-12-15",
+      "time": "19:00",
+      "genre": "South Indian",
+      "description": "Thumping beats and Tamil hits with Anirudh live in concert.",
+      "seatTypes": [
+        {
+          "type": "Standard",
+          "price": 1400
+        },
+        {
+          "type": "VIP",
+          "price": 3000
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "artist": "Armaan Malik",
+      "venue": "Pune Music Hall",
+      "location": "Pune",
+      "date": "2025-09-25",
+      "time": "18:00",
+      "genre": "Melody",
+      "description": "A romantic evening filled with soulful melodies by Armaan Malik.",
+      "seatTypes": [
+        {
+          "type": "Standard",
+          "price": 1300
+        },
+        {
+          "type": "Premium",
+          "price": 2200
+        },
+        {
+          "type": "VIP",
+          "price": 3600
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "artist": "KK Tribute Night",
+      "venue": "Kolkata Central Park",
+      "location": "Kolkata",
+      "date": "2025-08-30",
+      "time": "19:30",
+      "genre": "Tribute",
+      "description": "A tribute night to KK with live band performances of his hits.",
+      "seatTypes": [
+        {
+          "type": "Standard",
+          "price": 1000
+        },
+        {
+          "type": "VIP",
+          "price": 2400
+        }
+      ]
+    }
+  ],
+  "bookings": [],
+  "users": [
+    {
+  "id": "1",
+  "name": "Mohamed Azardeen M",
+  "email": "azardeen@example.com",
+  "password": "1234"
+}
+
+  ],
+  "admins": [
+    {
+      "id": "1",
+      "email": "admin@example.com",
+      "password": "admin123"
+    }
+  ],
+  "adminConcerts": [
+    {
+      "artist": "Arijit Singh",
+      "venue": "Chennai Stadium",
+      "date": "2025-08-12",
+      "time": "19:00",
+      "location": "Chennai",
+      "ticketPrice": 15,
+      "availableTickets": 250,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "artist": "Neha Kakkar",
+      "venue": "Mumbai Dome",
+      "date": "2025-07-20",
+      "time": "18:30",
+      "location": "Mumbai",
+      "ticketPrice": 1800,
+      "availableTickets": 300
+    },
+    {
+      "id": "3",
+      "artist": "Shreya Ghoshal",
+      "venue": "Bangalore Arena",
+      "date": "2025-09-03",
+      "time": "20:00",
+      "location": "Bangalore",
+      "ticketPrice": 2200,
+      "availableTickets": 200
+    },
+    {
+      "id": "4",
+      "artist": "Sid Sriram",
+      "venue": "Hyderabad Open Grounds",
+      "date": "2025-10-10",
+      "time": "18:00",
+      "location": "Hyderabad",
+      "ticketPrice": 1700,
+      "availableTickets": 180
+    },
+    {
+      "id": "5",
+      "artist": "Santhosh Narayanan",
+      "venue": "Coimbatore Central Park",
+      "date": "2025-08-25",
+      "time": "19:30",
+      "location": "Coimbatore",
+      "ticketPrice": 1300,
+      "availableTickets": 220
+    },
+    {
+      "id": "6",
+      "artist": "Anirudh Ravichander",
+      "venue": "Chennai Nehru Stadium",
+      "date": "2025-09-15",
+      "time": "21:00",
+      "location": "Chennai",
+      "ticketPrice": 2500,
+      "availableTickets": 500
+    },
+    {
+      "id": "7",
+      "artist": "SPB Tribute Night",
+      "venue": "Vizag Cultural Hall",
+      "date": "2025-08-30",
+      "time": "17:00",
+      "location": "Vizag",
+      "ticketPrice": 1200,
+      "availableTickets": 150
+    },
+    {
+      "id": "8",
+      "artist": "Benny Dayal",
+      "venue": "Delhi City Arena",
+      "date": "2025-11-05",
+      "time": "20:30",
+      "location": "Delhi",
+      "ticketPrice": 2100,
+      "availableTickets": 270
+    },
+    {
+      "id": "9",
+      "artist": "Jonita Gandhi",
+      "venue": "Ahmedabad Event Plaza",
+      "date": "2025-12-01",
+      "time": "19:00",
+      "location": "Ahmedabad",
+      "ticketPrice": 1600,
+      "availableTickets": 140
+    },
+    {
+      "id": "10",
+      "artist": "Karthik Live",
+      "venue": "Trichy Musical Grounds",
+      "date": "2025-10-22",
+      "time": "18:45",
+      "location": "Trichy",
+      "ticketPrice": 1400,
+      "availableTickets": 190
+    }
+  ],
+  "payments": [],
+  "tickets": [
+    {
+      "id": "1",
+      "name": "Mohamed Azardeen",
+      "concert": "Arijit Singh Live",
+      "location": "Chennai",
+      "date": "2025-08-15",
+      "seat": "VIP",
+      "price": 2500
+    }
+  ],
+  "bookings1": [
+    {
+      "id": "deb9",
+      "name": "User",
+      "email": "user@example.com",
+      "artist": "Shreya Ghoshal",
+      "venue": "Bangalore Arena",
+      "date": "2025-09-03",
+      "time": "20:00",
+      "location": "Bangalore",
+      "seatType": "Regular"
+    },
+    {
+      "id": "afe1",
+      "name": "User",
+      "email": "user@example.com",
+      "artist": "Various DJs",
+      "date": "2025-12-10",
+      "location": "Goa",
+      "seatType": "Regular",
+      "price": 4999
+    }
+  ],
+  "users2": [
+    {
+      "name": "Mohamed Azardeen M",
+      "email": "azardeen@example.com",
+      "id": "1"
+    }
+  ],
+  "bookings2": []
+}

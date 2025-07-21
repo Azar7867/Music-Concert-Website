@@ -1,0 +1,157 @@
+.confirmation-container {
+  min-height: 100vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  padding: 3rem 1rem;
+  color: #3470ac;
+  font-family: 'Segoe UI', sans-serif;
+  min-width: 100%;
+}
+
+.ticket-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 1.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #437eb8;
+  padding: 2rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  transition: all 0.4s ease;
+  margin-bottom: 2rem;
+}
+
+.ticket-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+.ticket-card h4 {
+  font-weight: 700;
+  color: #facc15;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.ticket-card p {
+  font-size: 1rem;
+  margin: 0.25rem 0;
+  color: #e0c646;
+}
+
+.qr-container {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 1rem;
+  border-radius: 0.75rem;
+  display: inline-block;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ticket-actions .btn {
+  border-radius: 50px;
+  min-width: 180px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+}
+
+.ticket-actions .btn-outline-success {
+  border-color: #4ade80;
+  color: #4ade80;
+}
+.ticket-actions .btn-outline-success:hover {
+  background-color: #4ade80;
+  color: #000;
+}
+
+.ticket-actions .btn-outline-primary {
+  border-color: #60a5fa;
+  color: #60a5fa;
+}
+.ticket-actions .btn-outline-primary:hover {
+  background-color: #60a5fa;
+  color: #000;
+}
+
+.loading-msg {
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 4rem;
+  text-align: center;
+}
+.ticket-card {
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.ticket-card:hover {
+  transform: scale(1.02);
+}
+
+.bg-overlay {
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.animate-title {
+  animation: glowText 2s ease-in-out infinite alternate;
+  color: #ffffff;
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #f39c12, 0 0 30px #e67e22;
+}
+
+@keyframes glowText {
+  0% {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #f39c12;
+  }
+  100% {
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #f39c12, 0 0 30px #e67e22;
+  }
+}
+
+.ticket-details p {
+  margin: 0.25rem 0;
+  font-size: 1rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Libertinus+Mono&family=Lobster&family=Playwrite+AU+SA:wght@100..400&display=swap');
+.ticket-card {
+  font-family: 'Libertinus Mono', monospace; 
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 16px;
+  color: #fff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+.ticket-card h4 {
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  text-align: center;
+  color: #ffc107;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+  animation: pulse 2s infinite;
+}
+
+.ticket-card p {
+  font-family: 'Libertinus Mono', monospace;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.ticket-card .text-muted {
+  font-family: 'Playwrite AU SA', sans-serif;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.9; }
+  50% { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(1); opacity: 0.9; }
+}

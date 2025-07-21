@@ -1,0 +1,85 @@
+.payment-container {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+}
+
+.payment-card, .payment-paid {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.payment-card:hover, .payment-paid:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+}
+
+.payment-card h5, .payment-paid h5 {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.payment-card p, .payment-paid p, .payment-card label {
+  color: #e0e0e0;
+}
+
+.payment-paid {
+  background: rgba(0, 128, 0, 0.2);
+}
+
+.form-check-label {
+  margin-left: 6px;
+}
+
+.btn {
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-success {
+  background: linear-gradient(to right, #28a745, #218838);
+  border: none;
+}
+
+.btn-success:hover {
+  background: linear-gradient(to right, #34ce57, #28a745);
+}
+
+.btn-outline-danger:hover {
+  background: rgba(220, 53, 69, 0.1);
+}
+
+.badge.bg-success {
+  background-color: rgba(40, 167, 69, 0.8) !important;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+.payment-background {
+  background-image: url('https://images.unsplash.com/photo-1521336575822-6da63fb45458?auto=format&fit=crop&w=1470&q=80'); 
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.upi-options {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.upi-option {
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.upi-option:hover {
+  background: #f0f8ff;
+}

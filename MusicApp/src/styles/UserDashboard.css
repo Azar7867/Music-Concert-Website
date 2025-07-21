@@ -1,0 +1,33 @@
+.dashboard-container {
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.glass-card {
+  background: rgba(69, 98, 105, 0.75);
+  border-radius: 16px;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(200, 200, 200, 0.3);
+}
+
+.booking-card {
+  transition: all 0.3s ease-in-out;
+  color: aqua;
+  background-color: rgb(71, 77, 77);
+}
+
+.booking-card:hover {
+  background-color: #65686f;
+  transform: scale(1.01);
+}
+.glass-card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 30px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
