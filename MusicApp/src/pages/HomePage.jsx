@@ -57,7 +57,7 @@ const nextEventDate = new Date('2025-08-30T20:00:00');
 
   useEffect(() => {
     // axios.get("http://localhost:3000/concerts")
-    axios.get("http://localhost:3000/api/concerts")
+    axios.get("http://localhost:3000/api/concerts1")
       .then(res => setConcerts(res.data))
       .catch(err => console.error("Error loading concerts:", err));
 

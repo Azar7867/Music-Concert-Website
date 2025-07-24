@@ -100,12 +100,12 @@ const handleDeleteConfirmation = (id) => {
           bookings.map((concert) => (
             <div key={concert._id} className="col-md-6">
               <div className="booking-card card p-3 h-100">
-                <img
+                {/* <img
   src={concert.image }
   alt={concert.artist}
   className="booking-image mb-3"
-/>
-{/* <img
+/> */}
+<img
   src={
     concert.image
       ? concert.image.startsWith('/uploads')  // ✅ Uploaded via API
@@ -119,7 +119,7 @@ const handleDeleteConfirmation = (id) => {
     e.target.onerror = null;
     e.target.src = 'https://placehold.co/300x180?text=No+Image';
   }}
-/> */}
+/>
                 <h4>{concert.artist}</h4>
                 <p><strong>Venue:</strong> {concert.venue}</p>
                 <p><strong>Date:</strong> {concert.date}</p>

@@ -1,0 +1,172 @@
+/* 🎫 Concert List Section */
+.table-title {
+  color: #00ffe0;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.table-container {
+  background: rgba(0, 0, 0, 0.4); /* Dark semi-transparent */
+  backdrop-filter: blur(16px);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.table-container:hover {
+  transform: scale(1.01);
+}
+
+.table {
+  background-color: transparent;
+  color: #e0f7fa;
+  font-size: 0.95rem;
+}
+
+.table thead.table-dark th {
+  background-color: #111927 !important;
+  color: #00ffe0 !important;
+  border-color: rgba(255, 255, 255, 0.1);
+  text-shadow: 0 0 6px rgba(0, 255, 255, 0.2);
+}
+
+.table td {
+  background-color: rgba(255, 255, 255, 0.02);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #e3eeec !important;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(0, 255, 255, 0.05);
+}
+
+/* Buttons */
+.btn-warning {
+  background-color: #f0ad4e;
+  color: #111;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #ec971f;
+}
+
+.btn-danger {
+  background-color: #d9534f;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c9302c;
+}
+/* 🎤 Concert Form Section */
+.row.mb-4 {
+  background: rgba(15, 20, 30, 0.65); /* Dark blurred glass look */
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 16px;
+  padding: 25px 20px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+.row.mb-4:hover {
+  transform: scale(1.01);
+}
+
+.row.mb-4 h5 {
+  color: #00ffe0;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+  margin-bottom: 20px;
+}
+
+/* Form Inputs */
+.row.mb-4 .form-control {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #e0f7fa;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.row.mb-4 .form-control:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border-color: #00ffe0;
+  box-shadow: 0 0 6px rgba(0, 255, 255, 0.3);
+}
+
+/* Add/Update Button */
+.row.mb-4 .btn-success {
+  background-color: #00cba9;
+  border: none;
+  font-weight: bold;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.row.mb-4 .btn-success:hover {
+  background-color: #00b59c;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.4);
+}
+.btn-success {
+  background: linear-gradient(to right, #00c9ff, #92fe9d);
+  color: #000;
+  font-weight: bold;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  background: linear-gradient(to right, #92fe9d, #00c9ff);
+  transform: scale(1.03);
+  box-shadow: 0 0 10px #00c9ff;
+}
+
+.btn-warning {
+  background-color: #ffae00;
+  border: none;
+  color: #000;
+}
+
+.btn-warning:hover {
+  background-color: #e69900;
+}
+
+.btn-danger {
+  background-color: #ff4e50;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #ff2e2e;
+}
+.row.mb-4 .form-control::placeholder {
+  color: #b2dfdb; /* Light cyan/teal for contrast */
+  opacity: 1; /* Ensure it’s fully visible */
+}
+
+/* Optional: Improve input text contrast */
+.row.mb-4 .form-control {
+  color: #e0f7fa;
+}
+input[type="date"],
+input[type="time"] {
+  background-color: #1f1f1f; /* Dark background */
+  color: #e0f7fa; /* Light text */
+  border: 1px solid #444;
+  padding-right: 1.5rem; /* Ensure space for the icon */
+  position: relative;
+}
+
+/* Make sure icons are visible (for Chromium browsers) */
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* Inverts color to show icon on dark background */
+  cursor: pointer;
+}

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Swal from 'sweetalert2';
-
+import '../styles/AdminPanel.css';
 const AdminPanel = () => {
   const [concerts, setConcerts] = useState([]);
   const [bookings, setBookings] = useState([]);
@@ -161,7 +161,8 @@ const AdminPanel = () => {
           </button>
         </div>
       </div>
-      <h5 className="mb-3">🎫 Concert List</h5>
+      <h5 className="table-title">🎫 Concert List</h5>
+      <div className="table-container">
       <table className="table table-bordered text-center">
         <thead className="table-dark">
           <tr>
@@ -174,7 +175,7 @@ const AdminPanel = () => {
             <th>Date</th>
             <th>Time</th>
             <th>Price</th>
-            <th>Tickets</th>
+            <th>Available Tickets</th>
             <th>Actions</th>
           </tr>
         </thead>
@@ -199,7 +200,9 @@ const AdminPanel = () => {
           ))}
         </tbody>
       </table>
-      <h5 className="mt-5 mb-3">🎟️ Booking Confirmation List</h5>
+      </div>
+      <h5 className="table-title">🎟️ Booking Confirmation List</h5>
+      <div className="table-container">
       <table className="table table-striped text-center">
         <thead className="table-primary">
           <tr>
@@ -237,6 +240,7 @@ const AdminPanel = () => {
           )}
         </tbody>
       </table>
+      </div>
     </div>
   );
 };

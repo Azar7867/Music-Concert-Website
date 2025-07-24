@@ -187,13 +187,21 @@ const ConcertCard = ({ concert }) => {
 
   return (
     <div className="concert-card-container position-relative overflow-hidden shadow rounded">
-      {concert.image && (
-        <img
-          src={concert.image}
-          alt={concert.artist}
-          className="concert-background-image"
-        />
-      )}
+      <img
+  src={
+    concert.image
+      ? concert.image.startsWith('/uploads')  // ✅ Uploaded via API
+        ? `http://localhost:3000${concert.image}`
+        : `/images/${concert.image}`          // ✅ Static from public/images
+      : 'https://placehold.co/300x180?text=No+Image'
+  }
+  alt={concert.artist}
+  className="concert-background-image"
+  onError={(e) => {
+    e.target.onerror = null;
+    e.target.src = 'https://placehold.co/300x180?text=No+Image';
+  }}
+/>
 
       <div className="concert-content p-4">
         <h5 className="card-title">{concert.artist}</h5>

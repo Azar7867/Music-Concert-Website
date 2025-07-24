@@ -117,10 +117,19 @@ const handleBookNow = async () => {
   return (
     <div className="concert-card card mb-3 shadow-sm">
       <div
-        className="card-background"
-        style={{ backgroundImage: `url('bg4.jpg')` }}
-      />
-      
+  className="card-background"
+  style={{
+    backgroundImage: `url(${
+      concert.image
+        ? concert.image.startsWith('/uploads')
+          ? `http://localhost:3000${concert.image}`
+          : `/images/${concert.image}`
+        : 'https://placehold.co/300x180?text=No+Image'
+    })`
+  }}
+/>
+
+      card-background
       <div className="card-body">
         
         <h5 className="card-title">{concert.artist}</h5>
